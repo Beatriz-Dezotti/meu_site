@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site_Beatriz</title>
+  <style>
+    :root {
+      --charcoal: #333333;
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: var(--white);
+      color: var(--charcoal);
+    }
+
+    .header {
+      background-color: var(--charcoal);
+      height: 60vh;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: var(--white);
+    }
+
+    .header .name {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .header .title {
+      font-size: 20px;
+      font-style: italic;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: var(--charcoal);
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: left;
+      background-color: var(--white);
+    }
+
+    .section h2 {
+      text-transform: uppercase;
+      border-bottom: 2px solid var(--charcoal);
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: var(--charcoal);
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+
+    form input[type="submit"] {
+      background-color: var(--charcoal);
+      color: var(--white);
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #222;
+    }
+
+    a {
+      color: var(--charcoal);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name">BEATRIZ DEZOTTI DE SOUZA</div>
+    <div class="title">Estudante</div>
+  </div>
+
+  <div class="navbar">
+    <a href="#summary" class="active">Biografia</a>
+    <a href="#projects">Graduação</a>
+    <a href="#experience">Cursos</a>
+    <a href="#contact-form">Habilidades Técnicas</a>
+    <a href="#contact-listing">Contatos</a>
+  </div>
+
+  <div id="summary" class="section">
+    <h2>Biografia</h2>
+    <p>Beatriz Dezotti é estudante universitária dos cursos de Ciência da Computação e Ciência de Dados, com foco no desenvolvimento de competências teóricas e práticas que impulsionem sua formação e carreira profissional.</p>
+  </div>
+
+  <div id="projects" class="section">
+    <h2>Graduação em Andamento</h2>
+    <ul>
+    <h3>GRADUAÇÃO EM CIÊNCIA DA COMPUTAÇÃO</h3>
+    <p>CEUB (2025 - em andamento)</p>
+    <h3>GRADUAÇÃO EM CIÊNCIA DE DADOS</h3>
+    <p>UFMS (2025 - em andamento)</p>
+    </ul>
+  </div>
+
+  <div id="experience" class="section">
+    <h2>Cursos e Certificados</h2>
+    <h3>Curso de extensão: Meninas na Programação</h3>
+    <p>(USP) - 2025</p>
+    <h3>Curso Introdução à Ciência de Dados</h3>
+    <p>(Santander/Open Academy e IE University) - 2025</p>
+    <h3>Curso Introdução à IA Generativa</h3>
+    <p>(Santander/Open Academy e MIT) - 2025</p>
+    <h3>Curso Fundamentos da Visão Computacional - IA do Azure</h3>
+    <p>(ENAP) - 2025</p>
+  </div>
+
+  <div id="contact-form" class="section">
+    <h2>Habilidades Técnicas</h2>
+    <h3>Python</h3>
+    <p>Fundamentos básicos em Python, sendo capaz de escrever scripts simples, entender a sintaxe básica da linguagem e manipular estruturas de dados elementares</p>
+    <h3>Inteligência Artificial</h3>
+    <p>Conhecimento prático dos serviços de Inteligência Artificial, incluindo Machine Learning, Computer Vision e Natural Language Processing.</p>
+    <h3>Dados</h3>
+    <p>Desenvoltura para tarefas fundamentais, como criação e formatação de planilhas, inserção de dados, aplicação de fórmulas básicas (soma, média) e criação de gráficos simples.</p>
+    <h3>C</h3>
+    <p>Fundamentos básicos em C, sendo capaz de escrever scripts simples e entender a sintaxe básica da linguagem</p>
+  </div>
+
+  <div id="contact-listing" class="section">
+    <h2>Contatos</h2>
+    <ul>
+      <li>Email: biabiadezotti@gmail.com</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/beatriz-dezotti-de-souza-618019364/" target="_blank">linkedin.com/in/beatriz-dezotti-de-souza</a></li>
+      <li>GitHub: <a href="https://github.com/Beatriz-Dezotti" target="_blank">github.com/Beatriz-Dezotti</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
